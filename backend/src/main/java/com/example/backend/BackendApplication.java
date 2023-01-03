@@ -8,22 +8,22 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendApplication implements CommandLineRunner {
+public class BackendApplication /*implements CommandLineRunner*/ {
 
     public static void main(String[] args) {
         SpringApplication.run(BackendApplication.class, args);
     }
 
-    @Autowired
+   /* @Autowired
     private CustomerRepository customerRepository;
     @Override
     public void run(String... args) throws Exception {
-      /*  Customer customer=new Customer();
+      *//*  Customer customer=new Customer();
         customer.setId("Coo1");
         customer.setFirstName("kamal");
         customer.setLastName("gunathilaka");
         customer.setEmail("gunathilaka@gmail.com");
 
-        customerRepository.save(customer);*/
-    }
+        customerRepository.save(customer);*//*
+    }*/
 }
